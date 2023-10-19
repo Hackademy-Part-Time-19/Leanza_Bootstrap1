@@ -1,0 +1,66 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    background-color: white;
+}
+
+
+
+.immagineNav{
+    height: 60px;
+    width: 150px;
+    margin-left: 10vh;
+}
+
+/* div padre nav*/
+.container-fluid{
+    background-color: none;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 900;
+    color: black;
+    background-color: white;
+   
+
+}
+
+.elementiNav{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: none;
+    flex:1;
+    padding: 8px;
+    background-color: white;
+}
+
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 900;
+    background-color: white;
+}
+
+.containerText{
+    position: absolute;
+    z-index: 1000;
+    top: 50px;
+    left: 40px;
+    color: white;
+}
+
+h5{
+    font-size: 25px;
+    font-weight:900 ;
+}
+
+p{
+    text-align: start;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-item {
+      display: none;
+    }
+}
